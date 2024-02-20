@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  
+  background-image: url(../2-firstPage/image/imaginaryBody.jpg.jpg);
+  background-size: cover;
+}
+
+.contr {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  background-image: url(../2-firstPage/image/imaginary.jpg);
+  background-size: cover;
+  color: #7befff;
+
+  -webkit-text-stroke:1px #092c42;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #10a2fd;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color:#f4b48f;
+}
+
+.creditCardImag img {
+  width: 50px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.buttonBack{text-decoration: none;
+color: white;}
+.butonCree {text-decoration: none;
+  color: white;}

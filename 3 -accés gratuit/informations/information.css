@@ -1,0 +1,45 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ 
+  
+  main {
+    padding: 20px;
+  }
+  
+  .disorderInfo {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .imDisorder {
+   height: 150 px;
+   width: 150px;
+  }
+  
+  .disorderInfo img {
+    animation: zoom 2s ease-in-out infinite;
+  }
+  
+  @keyframes zoom {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+.buttonBack {margin-left: -1200px;
+  border-radius: 50%;}
+  .butBack{text-decoration: none;}

@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: url(image/imaginaryBody.jpg.jpg);
+    background-size: cover;
+}
+
+.app-bar {
+    background-color: #122970;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+   
+
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.content {
+    padding: 20px;
+}
+
+.has-submenu {
+    position: relative;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.has-submenu:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    margin: 0;
+}
+
+.submenu a {
+    color: white;
+}
+
+.footer {
+    background-color:#122970;
+    padding: 20px;
+    text-align: center;
+    
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+  }
+  
+  .contact{
+    margin-top: 10px;
+  }
+  
+  .contact a {
+    color: #7befff;
+  }
+    .imgcontact  {
+        width: 30px;
+        height: 30px;
+      }
+      .welcome{overflow: auto;
+        height: 300px;
+    width: 500px;
+    background-color: aqua;
+    margin: auto;
+    
+    margin-top: 200px;
+border-radius: 10px;}
+    .divv{float: left;
+        height: 300px;
+        width: 250px;
+        background-color: beige;
+        background-image: url(image/imaginary.jpg);
+        background-size: cover;
+        
+    }
+    .vintage{text-align: center;
+        font-weight: bold;
+        margin-top: 100px;
+        color: #252648;
+        -webkit-text-stroke:1px #10a2fd;
+        font-size: 25px;
+        font-family: 'Dancing Script', cursive;
+    }
+        
+        .phrase{text-align: center;
+            color: #252648;
+
+        -webkit-text-stroke:1px #10a2fd;
+            font-size: 25px;
+            font-family: 'Dancing Script', cursive;
+        }
+        
+    .divvv{overflow: auto;
+        height: 300px;
+        width: 250px;
+        background-color:beige;}
+    
+        
+        .buton{color :#252648;
+            border-color:#10a2fd;
+            height: 50px;
+        width: 150px;
+        border-radius: 5%;
+          font-size: 25px;  
+        font-family: 'Dancing Script', cursive;  
+       
+       margin-top: 20px;
+        
+         }
+    
+         .buton:hover{background-color: #4c50c0;
+        opacity: 0.7;}
+        .butTolk{
+            margin-left: 600px;}
+       
+              
+    
+
+

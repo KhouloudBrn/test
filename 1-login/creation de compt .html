@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="creation de compt.css">
+  <title>Inscription</title>
+</head>
+<body>
+
+  <div class="contr">
+    <form id="Formregistration">
+      <label for="firstName">first Name:</label>
+      <input type="text" id="firstName" name="firstName" required>
+
+      <label for="lastName">last Name:</label>
+      <input type="text" id="lastName" name="lastName" required>
+
+      <label for="dob">Date of birth:</label>
+      <input type="date" id="dob" name="dob" required>
+
+      <label for="address">Home adresse :</label>
+      <input type="text" id="address" name="address" required>
+
+      <label for="maritalStatus">Marital Status:</label>
+      <select id="maritalStatus" name="maritalStatus" required>
+        <option value="single">Single</option>
+        <option value="married">Married(e)</option>
+      </select>
+<br>
+      <label for="psychologicalIssues">psychological Issues?</label>
+      <input type="radio" id="psychologicalIssuesYes" name="psychologicalIssues" value="yes"> yes
+      <input type="radio" id="psychologicalIssuesNo" name="psychologicalIssues" value="no" checked> No
+<br>
+      <div id="psycholDetails" style="display:none;">
+        <label for="psychoDescription">psychological Description :</label>
+        <textarea id="psychoDescription" name="psychologicalDescription"></textarea>
+      </div>
+<br>
+      <label for="medica">medication ?</label>
+      <input type="radio" id="medicaYes" name="medication" value="yes"> yes
+      <input type="radio" id="medicaNo" name="medication" value="no" checked> No
+<br>
+      <div id="medicationDetail" style="display:none;">
+        <label for="medicaName">medication Name :</label>
+        <input type="text" id="medicaName" name="medicationName">
+      </div>
+<br>
+      <div class="creditCardImag"> 
+        <label for="paid"> Paid :</label>
+        <br>
+       <span>
+        <img src="image/visa-icon.jpg" alt="Visa" class="card-icon" onclick="selectCard('visa')">
+        <br>
+        <input type="radio"> </span> 
+        <span>
+        <img src="image/mastercard-icon.jpg" alt="MasterCard" class="card-icon" onclick="selectCard('mastercard')"> <br>
+        <input type="radio"> </span>
+        <span>
+        <img src="image/amex-icon.jpg" alt="American Express" class="card-icon" onclick="selectCard('amex')">  <br>
+        <input type="radio"> </span>
+      </div>
+
+      <button type="button" onclick="createAccount()"> <a class="butonCree" href="../2-firstPage/premierePage.html">create Account </a></button>
+      <button type="button" onclick="goBack()"> <a class="buttonBack" href="../1-login/logIn.html">go Back </a></button>
+    </form>
+  </div>
+
+  <script src="creation de compt .js"></script>
+</body>
+</html>
